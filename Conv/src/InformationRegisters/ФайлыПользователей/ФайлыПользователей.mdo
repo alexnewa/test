@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31ed4cba-fe54-4fb9-a019-ae8fa6afb342">
+  <producedTypes>
+    <selectionType typeId="927093a0-7608-460f-8a84-ec664adbba98" valueTypeId="800ebdb5-2c27-4857-9de3-1d44f5177c8e"/>
+    <listType typeId="11a640d6-e826-4f69-a70b-f093f9561f1b" valueTypeId="2adf95e7-1ae4-4c43-ab83-d94494e28ebb"/>
+    <managerType typeId="873c6a6b-701c-4a4a-9033-77bc11350154" valueTypeId="eb81383e-7bb9-4bf2-83ae-7fcbbcf68ffb"/>
+    <recordSetType typeId="909dd194-9235-4cd7-9e8b-ef5d8e19c05f" valueTypeId="41875f17-e164-4433-9dfd-8aa47799c568"/>
+    <recordKeyType typeId="7a85f7d3-0955-449d-9ffd-6feadd21f27e" valueTypeId="66d1f072-2eaa-4371-88ee-916cf5daadc1"/>
+    <recordType typeId="29259493-d1da-40c8-80ab-3bf1039cd25a" valueTypeId="d4da4600-9f13-47ae-94e2-6bbaf0587f42"/>
+    <recordManagerType typeId="c9e92236-7dc1-40d1-baa9-f7717aec5e7a" valueTypeId="e2ee538f-5650-4cfe-a630-a9f68b22c7dd"/>
+  </producedTypes>
+  <name>ФайлыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <resources uuid="edbc9efc-cbd6-4700-aae9-b96551266884">
+    <name>ПолноеИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="06fcae7a-cdc4-4dde-84bc-3caedc7f24e6">
+    <name>ЗначениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настройки</value>
+    </synonym>
+    <comment>Значение настройки для пользователя</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="28d1d9d8-e7c4-40f0-aa1c-8d761f72157f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d41d00f-a1ce-4091-a9f1-82553ee3ea6b">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+      <types>CatalogRef.Конфигурации</types>
+      <types>CatalogRef.Регистрации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9c72844-8b02-4c45-9d89-fc15d73cb84b">
+    <name>ТипФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

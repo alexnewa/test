@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="227c634b-287f-46fb-bef4-f9bcb31f9e14">
+  <producedTypes>
+    <objectType typeId="617e40b4-339e-4803-871c-504a91da4e74" valueTypeId="49597387-40f9-47f7-8169-8d62b1c4cd6e"/>
+    <managerType typeId="baaca017-cd5c-41f7-af9c-3bd9ec036e9f" valueTypeId="f55cb127-6174-4ae4-a254-a3b21c0ae951"/>
+  </producedTypes>
+  <name>ЗагрузкаКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка правил обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКонвертации.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="885646d1-98fb-42bf-b55e-14b6ca4dae18">
+    <name>ИмяФайлаПравилОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла правил обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c5942de-4a8c-4f48-a39d-2ee972366457">
+    <name>ЗагружаемаяКонвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружаемая конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7431f01d-3cdf-403d-b0a1-9758811ed4e2">
+    <name>ТабПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево ПКО</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1d4da00-d88a-470f-b2c1-9f0b26c2eeff">
+    <name>ТабПВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево ПВД</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2440c22-7aa4-47e0-8842-dc6efd600105">
+    <name>ТабПОД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево ПОД</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3dcfd719-4bcd-4c15-9347-a03f033adae6">
+    <name>ТабАлгоритмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево алгоритмов</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dc3a58cc-c7fd-4335-98a9-d0ac23fb6326">
+    <name>ТабЗапросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево запросов</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2b8624f-6c1d-47ec-856d-e8e675381ad9">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07bbe38c-8d8a-4007-8d48-52b5a363a6a3">
+    <name>Приемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0394998c-7486-4bdc-8ec6-cc16b7e92904">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий разработчика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ccfbc0e-9107-409e-af82-3efb4fae6c86">
+    <name>ТабОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица обработок</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3aeba39e-322e-408b-9ff4-9c3d70dc5d05">
+    <name>ТабПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица параметров</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9da7f064-0435-407e-8fe4-c95dc8d76c48">
+    <name>ТаблицаПравилОчистки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица правил очистки</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0a49beb-f06f-4535-97bf-80ce9f4db51e">
+    <name>КонфигурацииИсточникаИПриемникаСовпадают</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурации источника и приемника совпадают</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="25e5bfe2-5317-4744-8bc0-8e00126414fc">
+    <name>ЗагрузкаДанныхВОднойТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных в одной транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2032b3b6-4d64-414a-aca3-c0ea125b6632">
+    <name>ИмяФайлаОбработчиковВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработчиков выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebb560fd-0947-45fc-8ef6-a0bfbd105772">
+    <name>ИмяФайлаОбработчиковЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработчиков загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fba98a8d-0241-4829-8f02-b6ab6db15d98">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd11ed3c-86e8-4fa5-8ef6-fce248e5a3a1">
+  <producedTypes>
+    <objectType typeId="cc54a5dd-339c-4bbf-81bd-5932872a2b93" valueTypeId="ef66c33f-c805-47d3-93f1-3c38f459bfd9"/>
+    <managerType typeId="88e65164-5f6a-4ec3-b007-685cfb7b9331" valueTypeId="46c34f69-6d62-4722-b19f-ef6a4b0bee44"/>
+  </producedTypes>
+  <name>СравнениеМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СравнениеМетаданных.Form.Форма</defaultForm>
+  <attributes uuid="9100eb80-5b6e-4780-826c-2d04284442d5">
+    <name>КонфигурацияИсходная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация исходная</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aee1de00-02fb-4a9e-b092-3ec965ee524a">
+    <name>КонфигурацияСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация сравнения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7aca1520-1334-4d0d-bf32-dd35a98ac79f">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9ea82219-23fa-4763-b83e-a1ba0e0ebe24">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

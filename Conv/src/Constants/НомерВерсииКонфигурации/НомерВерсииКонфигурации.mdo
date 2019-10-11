@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85559c2c-921d-4c7e-b508-30104f863952">
+  <producedTypes>
+    <managerType typeId="173de96f-3a01-40ac-88b9-fa4be4a56812" valueTypeId="97cdf0a3-6b53-4040-bdf4-b46b98b1111f"/>
+    <valueManagerType typeId="f400fecf-01bc-4bff-87b8-b2dd11bcc35b" valueTypeId="00104d04-d097-4492-bfa2-402ff4dd9652"/>
+  </producedTypes>
+  <name>НомерВерсииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер версии конфигурации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

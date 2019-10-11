@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0526f72c-55f4-4996-87ae-d56af0b04d03">
+  <producedTypes>
+    <objectType typeId="73d6faf6-adf1-46d9-8908-1942e0eab5c6" valueTypeId="6fe2979c-2aef-40e2-bf6d-33ca565feb99"/>
+    <managerType typeId="430bbd5b-c9b6-46c8-8d4a-00b28e645d69" valueTypeId="f57c75a9-05c9-4236-a96e-d9f4465e0a4c"/>
+  </producedTypes>
+  <name>ВыгрузкаЗагрузкаДанныхXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка и загрузка данных XML</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВыгрузкаЗагрузкаДанныхXML.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ed288449-0cee-4a6e-b82c-dddcc799fb4c">
+    <name>ИмяФайлаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла выгрузки</value>
+    </synonym>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Имя файла выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="967b6f6f-8a17-477c-b0de-396ba7aecfea">
+    <name>ОкноИсполненияОбщееКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окно исполнения общее количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9c31a42-f4dd-4813-ae0f-7f5743ea1a59">
+    <name>ОкноИсполненияОбработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окно исполнения обработано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="84438cf4-3101-40f9-a532-847e3778c4e7">
+    <name>ДеревоМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a75a405f-697e-4f34-b2ba-daeabb64f8e2">
+    <name>ВключитьВозможностьРедактированияИспользованияИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить возможность редактирования использования итогов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5308f700-6cf9-471a-a6ef-fcbdd655ce8c">
+    <name>ПодзаголовокОкнаИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подзаголовок окна исполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="edf9d2a8-8865-4de7-b51f-3ca0776c122c">
+    <name>ПриЗагрузкеИспользоватьРежимОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>При загрузке использовать режим обмена данными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d1bd638-1d5b-4ada-b4c6-26d0627dbb6d">
+    <name>ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить загрузку в случае возникновения ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d55ebc0-7226-4a6f-906e-4eec2c1d69ba">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dca63b1-c5d0-4725-a097-e6b2cb6320da">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b5eb8d2-0369-47c7-b90f-c659387a6dfe">
+    <name>ИспользоватьОтборПоДатеДляВсехОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по дате для всех объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0b8cab8-0cb6-4889-a9a6-0723a0e98560">
+    <name>ВыгружатьСДокументомЕгоДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать с документом его движения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="38282c37-d0f7-4ed3-bcec-99779a0b96fd">
+    <name>ТипВыгрузкиПериодическихРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выгрузки периодических регистров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e782e42d-bfb8-47cd-9a40-db9d32b43fb2">
+    <name>ИспользоватьФорматFastInfoSet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать формат FastInfoSet</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7e8c4e3-73fe-4226-bfcf-de85ba2e7366">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="83218b97-eb3e-4ff3-99d4-a1cbe7fd2f0c">
+    <producedTypes>
+      <objectType typeId="cebc03f7-dcc4-4843-a0de-3c9ba4f92cec" valueTypeId="9ecb8726-6e5c-49ac-b999-923a710d11b6"/>
+      <rowType typeId="566305d2-92bf-4ddb-9f74-6b94c8406c4c" valueTypeId="98c6b94c-d195-4a82-8d71-073445b5d100"/>
+    </producedTypes>
+    <name>ДополнительныеОбъектыДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные объекты для выгрузки</value>
+    </synonym>
+    <attributes uuid="6049e0c5-b1fb-4481-9fcd-3b88a74c7494">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>ExchangePlanRef</types>
+        <types>BusinessProcessRoutePointRef</types>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>ChartOfCalculationTypesRef</types>
+        <types>TaskRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>ChartOfAccountsRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7e552dd4-1f38-46fb-b03b-24c2eb701388">
+      <name>ИмяОбъектаДляЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя объекта для запроса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1149ace1-a44d-424a-975f-98492d0b4a92">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8ec5d10-efe9-42a2-92ab-cf853669e5e3">
+    <name>ОкноИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окно исполнения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bf7b52e0-6276-4350-b8d9-c0648cc6e345">
+    <name>ОшибкиПриВыгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки при выгрузке</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74b67748-b716-4d2e-91d7-bfb7ce50d058">
+    <name>ФормаРедактированияТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования текста</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="748bc925-dcf7-428e-8b6f-35c8e04721fd">
+    <name>ФормаВыбораОбъектовДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора объектов для выгрузки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f96e486-7790-4d3b-9f2e-bb7fc387571c">
+    <name>ФормаРезультатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма результата запроса</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9e46697-da2f-490d-a911-ac078868f744">
+    <name>ФормаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

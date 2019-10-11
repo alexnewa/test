@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d7ffa1-9b76-4590-9710-d2b55a46d55f">
+  <name>ПравилаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка правил обмена</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FilterCriterion.СсылкиНаПКО</content>
+  <content>CommonModule.РаботаСФайлами</content>
+  <content>CommonForm.ПравилаОбмена</content>
+  <content>Catalog.Алгоритмы</content>
+  <content>Catalog.Запросы</content>
+  <content>Catalog.Конвертации</content>
+  <content>Catalog.Обработки</content>
+  <content>Catalog.Параметры</content>
+  <content>Catalog.ПравилаВыгрузкиДанных</content>
+  <content>Catalog.ПравилаКонвертацииЗначений</content>
+  <content>Catalog.ПравилаКонвертацииОбъектов</content>
+  <content>Catalog.ПравилаКонвертацииСвойств</content>
+  <content>Catalog.ПравилаОчисткиДанных</content>
+  <content>Enum.СпособыОтбораДанных</content>
+  <content>InformationRegister.ФайлыПользователей</content>
+</mdclass:Subsystem>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01ab8b2b-8e9e-4dc8-9df4-9d5c49f73d9d">
+  <producedTypes>
+    <objectType typeId="e825884d-1725-4d3b-8c9a-c7b386e3e192" valueTypeId="eb16e6f5-27cb-4451-b684-08af0a488c74"/>
+    <managerType typeId="4ba5f79b-a056-4e0c-b1ed-47008526a40b" valueTypeId="ed775bc9-2517-41fa-abed-66539226631a"/>
+  </producedTypes>
+  <name>СравнениеИОбъединениеПравилОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение и объединение правил обмена</value>
+  </synonym>
+  <defaultForm>DataProcessor.СравнениеИОбъединениеПравилОбмена.Form.Форма</defaultForm>
+  <attributes uuid="e73aa595-3052-4e8b-bbdf-13b5a115e7ca">
+    <name>ДеревоСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево сравнения</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="37a6c167-96aa-4cff-962e-9a92a8ea4dea">
+    <producedTypes>
+      <objectType typeId="7dcbd853-8e90-4634-9da0-6cfc9a27f700" valueTypeId="24d399fb-51d3-4f8c-ba2c-c08f0ee2e8bd"/>
+      <rowType typeId="556ba091-3080-4c62-9031-cf355d5a4056" valueTypeId="335599f9-4393-4bfa-a8fb-fe658315c39a"/>
+    </producedTypes>
+    <name>Конвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертации</value>
+    </synonym>
+    <comment>Правила обмена данными</comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1b266a64-54cc-479f-aa53-7dc3ee84f721">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7b4dad35-283a-4087-b8e2-02fd90a790c7">
+      <name>Конвертация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конвертация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конвертации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="98998aac-c934-4a3e-8290-d6ae6d8a5842">
+    <producedTypes>
+      <objectType typeId="f53e6de3-d7b6-474b-ba14-a86be0cf6826" valueTypeId="92b5fc03-92c0-45f6-85dc-9f8058ae2e60"/>
+      <rowType typeId="904b2913-4f0f-4f7d-b1e6-dca5bf5040c8" valueTypeId="cc838bbe-1877-4998-beda-87e3e7e3697f"/>
+    </producedTypes>
+    <name>РеквизитыСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты сравнения</value>
+    </synonym>
+    <comment>Реквизиты справочников, которые учавствуют в сравнении</comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="15f575c6-fd8f-4c82-8e76-78335d5a31a3">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3af616aa-eca5-4afe-a64f-293d834f49e6">
+      <name>Справочник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Справочник</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="03cc0a34-267c-4b56-abe1-23156a8d0e92">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1429f217-3b49-495d-9e50-a5a60d99f16c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение и объединение правил обмена</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="010bb71f-3db2-43f6-9c7e-c2879a0288aa">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a70defe5-5fc0-4ecb-9175-348a53b9a69a">
+    <name>ДоступныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные реквизиты</value>
+    </synonym>
+  </templates>
+  <templates uuid="7a7fc395-0e21-4a0c-8995-af7015170850">
+    <name>ОтчетОСравненииПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о сравнении правил</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ef63e1a-cc04-4639-801d-bfc09b8c2d33">
+  <producedTypes>
+    <objectType typeId="df233f10-17b8-4e29-911d-760fc741d379" valueTypeId="89b0d389-4553-41ec-9917-4ca0742961e2"/>
+    <managerType typeId="e678c3f7-e6b8-440c-b11a-e125d22c666e" valueTypeId="9f7e1098-132a-4e8a-a5a9-bb26a656ce5a"/>
+  </producedTypes>
+  <name>ВыгрузкаКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка правил обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаКонвертации.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ae3af52c-e0a4-49ed-9ad8-e9dfa73bb333">
+    <name>ИмяФайлаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла правил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c0f6c3c3-788a-4c7d-9698-80067a632f9c">
+    <name>ИмяФайлаМодуляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла модуля выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="643009a4-1fb8-415f-83be-2d9d98ba2e8b">
+    <name>ИмяФайлаМодуляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла модуля выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d3ca6bf-2440-4bb7-8c73-e948922a1ad4">
+    <name>КонвертацияДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация для выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ead93fd1-3c1c-4dfd-9fbc-58aea796882d">
+    <name>РежимСохраненияВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим сохранения версии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5b97821a-f316-4531-82c4-3dfaa223fff3">
+    <name>СжиматьФайлПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать файл правил</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7bbbbf2-8c26-4f82-86b8-1a8a45894fd4">
+    <name>ИмяФайлаОбработчиковВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработчиков выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e243e799-f58b-4494-95dc-973b0525abdf">
+    <name>ИмяФайлаОбработчиковЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработчиков загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9004f5e2-e2b9-4ea7-8e71-2ced6dfeb5c9">
+    <name>КонвертацияКорреспондентДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация корреспондент для выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7fdd793-ad35-4c9b-a6e1-98b057449d3a">
+    <name>ВыгружатьПравилаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать правила корреспондента</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ed3509b6-c2e8-445c-8941-5bbed8cd005d">
+    <name>РегистрацияДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация для выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Регистрации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="549d79cd-da61-4c7e-b060-a42a5a56ac58">
+    <name>ВыгружатьПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать правила регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e4914c10-edbd-4332-8104-5b2668f71002">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f402673e-9542-4a5c-b52f-0d82fc0db681">
+    <name>ЗаголовокМодуляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок модуля выгрузки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b5ee85e1-b077-4104-866c-ffdd98643dfb">
+    <name>ОбработчикиСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчики событий</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="86e8c826-d518-4885-b572-70b9a87d7219">
+    <name>ПроцедурыИФункцииМодуляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процедуры и функции модуля выгрузки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0fe2aedc-9ebb-4d8d-a620-64955156b5fa">
+    <name>ЗаголовокМодуляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок модуля обработки загрузки данных</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="90b8a642-8768-4eda-8d22-33d3d9cb35df">
+    <name>ПроцедурыИФункцииМодуляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процедуры и функции модуля загрузки данных</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

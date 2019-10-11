@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47e1242f-4c2a-4d50-be87-7451dae4c942">
+  <producedTypes>
+    <listType typeId="a7b9f04f-6346-488e-b8fb-6650ac59db80" valueTypeId="d38778b9-8604-4942-a013-db1949d0ba6e"/>
+    <managerType typeId="27259e86-0ce4-4ef6-bffe-5fefca2b1743" valueTypeId="558aabae-b82a-4c7a-a0e5-d7493f7c9e20"/>
+  </producedTypes>
+  <name>СсылкиНаПКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки на ПКО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ПравилаКонвертацииСвойств.Attribute.ПравилоКонвертации</content>
+  <defaultForm>FilterCriterion.СсылкиНаПКО.Form.ФормаСписка</defaultForm>
+  <forms uuid="3f983db9-4d33-4e43-8d7f-b627de60088a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

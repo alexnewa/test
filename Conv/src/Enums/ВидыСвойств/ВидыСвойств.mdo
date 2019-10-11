@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b7e392-7702-4f4c-821e-066c2b4d9a01">
+  <producedTypes>
+    <refType typeId="767d4e51-0f36-4e52-9e87-9f4694347a92" valueTypeId="3373e21e-e978-4160-8a13-05eb808598df"/>
+    <listType typeId="e4b7e392-7702-4f4c-821e-066c2b4d9a01" valueTypeId="e4b7e392-7702-ff4c-821e-066c2b4d9a01"/>
+    <managerType typeId="cc3826af-542d-44d5-9e0b-ce9a1358b71c" valueTypeId="6ad83db2-adbe-4aa7-98fa-0c7fa84369b0"/>
+  </producedTypes>
+  <name>ВидыСвойств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды свойств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="2e2f5264-5d43-4fed-bcc6-1830b03b21b5">
+    <name>ВидыСубконтоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды субконто счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bc1c889-2c06-49f0-8a62-b88f828fdce2">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f50e429-ba74-4778-8da8-fa742f0ec5bc">
+    <name>НаборДвиженийРегистраБухгалтерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор движений регистра бухгалтерии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="179d8ce5-787e-4f85-9743-0af9dd722eee">
+    <name>НаборДвиженийРегистраНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор движений регистра накопления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2a162c6-7cff-4746-9802-eac31803ed2a">
+    <name>НаборДвиженийРегистраРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор движений регистра расчета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be7f863e-6f4a-422d-af9a-e452d5067d8d">
+    <name>НаборДвиженийРегистраСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор движений регистра сведений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61ed71b5-bbea-408b-b853-3cbaf6382514">
+    <name>НаборЗаписейПодчиненногоРегистраСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор записей подчиненного регистра сведений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9093597c-7de3-4bfd-8b9d-1964553dde2a">
+    <name>НаборЗаписейПоследовательности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор записей последовательности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="960f27db-4fdf-4b95-982e-c4c50f25afc0">
+    <name>ПодчиненныйСправочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный справочник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78953380-8da2-431b-bc00-dc8130c4cd24">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fae7c349-bde8-4f5b-aae5-60e8e7192088">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecc4f197-9f1c-4900-9b63-36a446e5cfac">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dd04b2b-3126-46fd-9cf1-18f28dfba958">
+    <name>СоставПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав плана обмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a904c0a6-6a19-4070-b6de-111c2f09da76">
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4032b906-a771-4522-9d5b-6cbef98befa9">
+    <name>ЭлементСоставаПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент состава плана обмена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

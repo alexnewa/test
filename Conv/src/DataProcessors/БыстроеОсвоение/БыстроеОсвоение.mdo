@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e52b8652-d25f-4611-a0a6-e45e05192e47">
+  <producedTypes>
+    <objectType typeId="7223362a-5c01-4b98-b6f1-5d7bf36e8743" valueTypeId="1f6835d5-3a40-4784-a166-392421d905a1"/>
+    <managerType typeId="d9a04a15-c117-42c0-8ca1-3d7a29b23f02" valueTypeId="81ce167d-8e83-46ee-9729-684137ec76ee"/>
+  </producedTypes>
+  <name>БыстроеОсвоение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрое освоение 1С:Бухгалтерии 8</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БыстроеОсвоение.Form.Форма</defaultForm>
+  <attributes uuid="40d64d27-c5b4-4920-a1c6-b806f9fae33f">
+    <name>РазделДляОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел для открытия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e38e5b99-17f7-4aa6-8b9d-46ad8866c07d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d56897c2-9526-4da2-9eda-dc071e56e583">
+    <name>ФормаПолезнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма полезной информации</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="70dd39c0-f91f-43d6-9110-7cd82f501ebd">
+    <name>ДоброПожаловать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добро пожаловать!</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="74bde2a5-1e2b-45e1-bace-7d3d088142f9">
+    <name>ДляЧегоНужнаПрограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для чего нужна программа</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c30cb27f-ac08-4895-9d87-685cd5550970">
+    <name>ВыгрузкаИЗагрузкаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка и загрузка метаданных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="14c2401a-3b72-41b9-9ad9-2682ce3a3d96">
+    <name>СозданиеПравилОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание правил обмена данными</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="dd68f4e9-e258-498c-99ee-6ce996412e4c">
+    <name>АвтоматическоеСозданиеПравилОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическое создание правил обмена</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d47ecbeb-0d9f-4407-ab67-9625aee972c1">
+    <name>ПравилаПоискаОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила поиска объектов</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c173cfd2-9246-4ab6-b17b-e8e39f5e43aa">
+    <name>ПравилаВыгрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="3716e9c4-a96c-4a9a-aee5-aeb090544f7c">
+    <name>ПравилаОчисткиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила очистки данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9bfdd24d-bae9-4907-a4b7-a60270ee6d34">
+    <name>ПодробноеЗнакомствоСПравиламиОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробное знакомство с правилами обмена</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="982a1120-7bbc-4d4c-ba9a-3d721f309560">
+    <name>ПодробноеЗнакомствоСПравиламиКонвертацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробное знакомство с правилами конвертации объектов</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="feb903a6-4306-4e59-975f-90e41cd0d500">
+    <name>ПодробноеЗнакомствоСПравиламиКонвертацииСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробное знакомство с правилами конвертации свойств</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2396010e-ba65-4df8-ab9d-20d9835f1545">
+    <name>ЧтоТакоеОбработчикиСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что такое обработчики событий</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9f2d551d-de9b-4919-bcd3-3c7702114ab8">
+    <name>ЧтоТакоеАлгоритмыИЗапросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что такое алгоритмы и запросы</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="16ccc7c9-2a72-49c7-8f6c-c18206516d66">
+    <name>ОптимизацияПравилОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптимизация правил обмена данными</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="49e53f8d-7375-4062-9a1a-27468807272b">
+    <name>ПравилаРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="59b7b63f-ba64-4940-b3f9-60c956498268">
+    <name>ПравилаРегистрацииОбъектовОсобенностиИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов: Особенности использования</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="637b8e8e-7ae4-45b2-9333-0638d94e4c00">
+    <name>СозданиеПравилРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание правил регистрации объектов</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

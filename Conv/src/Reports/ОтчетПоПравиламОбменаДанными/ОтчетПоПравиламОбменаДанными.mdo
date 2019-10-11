@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7701a812-670f-4af6-bbcb-c934d100b3e2">
+  <producedTypes>
+    <objectType typeId="1a629842-78b9-4623-bbde-4743262266e6" valueTypeId="81a07b97-5add-4879-a6a0-453fa4c9fe93"/>
+    <managerType typeId="b0dd1657-0ccc-4a64-afdd-0ef21097b6cb" valueTypeId="4aec2f50-430f-4f5e-a38a-458d8b81f14b"/>
+  </producedTypes>
+  <name>ОтчетПоПравиламОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по правилам обмена данными</value>
+  </synonym>
+  <defaultForm>Report.ОтчетПоПравиламОбменаДанными.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5f8d91fd-a3bf-4991-be86-08e9622f09d4">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94d44407-ea26-4cbd-83b4-a6395acb494d">
+    <name>ВыводитьНеконвертируемыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить неконвертируемые свойства</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b76921c-5a07-445a-b82a-184e328cb78d">
+    <name>ВыводитьНеконвертируемыеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить неконвертируемые значения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d8435ae-b963-4a5e-8b96-9037199f1c6a">
+    <name>ВыводитьНезаполняемыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить незаполняемые свойства</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca9e2fc3-9d52-4e96-9467-16a19474dac9">
+    <name>ВыводитьНезаполняемыеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить незаполняемые значения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f19cb649-1f2e-4cbc-8ca3-ff25b521e623">
+    <name>СокращатьСоставныеОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращать составные описания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ea8b9dfe-904a-4cbc-a0e0-3626f3323c77">
+    <name>КоличествоВыводимыхТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество выводимых типов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="577135e7-d24d-4b61-b8f4-c481aa041941">
+    <name>ВыводитьСистемныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить системные сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="495d8fac-08b5-4192-b09d-ae5a1441d767">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1fd96621-4551-4f12-ab52-6cb494a96683">
+    <name>ФормаНастроекОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="49eada09-730d-4402-b60b-6686509a1abe">
+    <name>МакетОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

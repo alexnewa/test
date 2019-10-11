@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6be5c7e-8465-4d2e-a1aa-47c79c7c7ede">
+  <producedTypes>
+    <objectType typeId="65e6c442-ed70-4c7d-8d16-95f87c8ca0c4" valueTypeId="25b37817-0d78-476a-948c-6077f2661086"/>
+    <managerType typeId="80ca2855-fff8-49e7-9b67-ef72306f9432" valueTypeId="f4a6b369-3993-4c1e-8045-0734d77ce150"/>
+  </producedTypes>
+  <name>АвтонастройкаПравилКонвертацииЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автонастройка правил конвертации значений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтонастройкаПравилКонвертацииЗначений.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1e80c3ba-0b68-47de-8d68-a1a6d6f46762">
+    <name>ПравилоКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило конвертации объектов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69e64489-77f8-4a5f-b331-22868c2cb4b8">
+    <name>ТаблицаРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица результат</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ab72e5d-4145-4757-8acc-39e2b25a9984">
+    <name>ОтображатьВсеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать все данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dee0127c-1aa8-424e-92fd-381f12543d1f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

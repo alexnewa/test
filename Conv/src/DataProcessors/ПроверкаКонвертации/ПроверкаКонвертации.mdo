@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7d9b69c-e5a0-4967-80a7-642fec6d0a9c">
+  <producedTypes>
+    <objectType typeId="487db594-957e-47a1-a8ce-8989679c2e70" valueTypeId="b60b3f3d-f42b-42af-bbfd-45157ce1b877"/>
+    <managerType typeId="4f0b101c-e3af-47f8-9cf9-6ea561b7851a" valueTypeId="1dc00533-6008-4410-a8c1-cb6cb635304f"/>
+  </producedTypes>
+  <name>ПроверкаКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка конвертации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаКонвертации.Form.Форма</defaultForm>
+  <attributes uuid="e4ecce1d-6ce4-437e-a0ca-622f14c56b7a">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7fd33ad2-ec32-43e2-bf17-219e855a25bc">
+    <name>ДанныеРезультатовПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные результатов поиска</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc9c2374-e8f9-4dfd-afab-59768b40cb88">
+    <name>ДанныеПоискаПКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные поиска ПКС</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="08a50c2d-37d6-4dce-832e-006230f76fec">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f964dce-fcd3-403f-968c-ee711163bdc5">
+    <name>ФормаПредставленияРезультатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма представления результатов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a989504-a336-4773-8b52-fc3262caa3ab">
+    <name>ФормаПоискаПКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поиска ПКС</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="820032c6-6b36-4f38-b0fd-304f57a789a4">
+    <name>ФормаИзмененияПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения правил</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

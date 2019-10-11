@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f43d5b3-3858-405b-acc7-1c2e41784733">
+  <producedTypes>
+    <objectType typeId="843b9d4a-3f85-43a6-8fd0-dab907837d46" valueTypeId="a5cad876-84ec-4e84-9da6-834ab338a409"/>
+    <managerType typeId="13fa8d22-2b7f-4625-a8ca-dbd19ec2d52f" valueTypeId="237a52d5-cebe-42c3-a998-f2a7aa0ad112"/>
+  </producedTypes>
+  <name>ИнформацияОбОбработчиках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация об обработчиках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнформацияОбОбработчиках.Form.Форма</defaultForm>
+  <attributes uuid="3219d82d-d38a-48b6-b45b-96c90ee7bb8d">
+    <name>РазделДляОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел для открытия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="93bd9cdf-98c2-4133-900e-733f4efc205b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f7ddda7a-63b9-4c64-9a9f-4fa112d5bd5e">
+    <name>КонвертацияАлгоритмПослеЗагрузкиПравилОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После загрузки правил обмена</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c7daaf3c-e66b-465a-971e-4ce4c4e10a93">
+    <name>КонвертацияАлгоритмПередВыгрузкойДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед выгрузкой данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="de64fab2-6491-4b3e-9241-2eb2806a49c5">
+    <name>КонвертацияАлгоритмПередПолучениемИзмененныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед получением измененных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="afcb7f40-a494-42dd-a91e-9ceb0bd25959">
+    <name>КонвертацияАлгоритмПередВыгрузкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После выгрузкой объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="ccdf680a-3065-4f9a-a934-d454a8e7ba47">
+    <name>КонвертацияАлгоритмПередОтправкойИнформацииОбУдалении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед отправкой удаления</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7ae02b18-517d-4cb9-ad6e-74e6c2c867da">
+    <name>КонвертацияАлгоритмПередКонвертациейОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед конвертацией объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="884e44a4-d7fe-4ab9-a4c9-c96e68c35980">
+    <name>КонвертацияАлгоритмПослеВыгрузкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После выгрузки объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b072a438-c2ba-435d-b5f8-825ca39b0bdd">
+    <name>КонвертацияАлгоритмПослеВыгрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После выгрузки данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2eafdeaf-0b5b-40d6-b7ef-99d06a41f547">
+    <name>КонвертацияАлгоритмПередЗагрузкойДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед загрузкой данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="112302ef-fd25-4c4e-bd66-e2a7b2a22ac4">
+    <name>КонвертацияАлгоритмПослеЗагрузкиПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После загрузки параметров</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="e13d9827-4df2-40b0-8401-d03b946cc2de">
+    <name>КонвертацияАлгоритмПослеПолученияИнформацииОбУзлахОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После получения информации об узлах обмена</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="e6b55380-749d-4c96-9660-65ad6569fbd2">
+    <name>КонвертацияАлгоритмПередЗагрузкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. Перед загрузкой объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c2ca90d0-a7ea-4fee-bde6-1aed9ec8772d">
+    <name>КонвертацияАлгоритмПриПолученииИнформацииОбУдалении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. При получении удаления</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="719ad4cf-ed9f-4d22-8b9f-ff198b1845f4">
+    <name>КонвертацияАлгоритмПослеЗагрузкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После загрузки объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="8cc78f08-5e70-40c2-b737-e8f01df44927">
+    <name>КонвертацияАлгоритмПослеЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация. После загрузки данных</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="a9e24507-e29d-4811-a6b3-d8e5b032fa04">
+    <name>ПараметрыАлгоритмПослеЗагрузкиПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры. После загрузки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7100d7c2-df36-4337-bcc3-d0a3cd5d6093">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПередВыгрузкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. Перед выгрузкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2ee4a23a-3be8-4122-ba7b-25f020c50597">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПриВыгрузкеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. При выгрузке</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0a520c49-e150-44ea-b6a5-7f5d01abe9af">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПослеВыгрузкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. После выгрузки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="fdd073d7-3e3f-41c8-9ae8-25f3a8e80f63">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПослеВыгрузкиОбъектаВФайлОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. После выгрузки в файл</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c1dc9ab2-4597-43ea-ac7b-9bdacb02ef70">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПоследовательностьПолейПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. Поля поиска</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="a1debbe6-fcd9-4036-836a-6fd06bd2767f">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПередЗагрузкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. Перед загрузкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2ccecde9-3069-4896-8896-441e0c57425c">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПриЗагрузкеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. При загрузке</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c9304a2b-c7b7-45f0-a0d2-912df7490afb">
+    <name>ПравилаКонвертацииОбъектовАлгоритмПослеЗагрузкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации объектов. После загрузки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9007bb37-14d2-404b-9c63-b5dcbda51f1c">
+    <name>СвойстваАлгоритмПередВыгрузкойСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства. Перед выгрузкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b818f3b2-134e-4b08-9fab-94b7b35a6d41">
+    <name>СвойстваАлгоритмПриВыгрузкеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства. При выгрузке</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="15d09a25-27cd-4171-b301-dd5c746366f6">
+    <name>СвойстваАлгоритмПослеВыгрузкиСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства. После выгрузки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b7114886-2250-43ab-8953-c68abcc696ad">
+    <name>ГруппаСвойствАлгоритмПередОбработкойВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа свойств. Перед обработкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="1e338bc5-b880-4645-a8ae-ad23a588517f">
+    <name>ГруппаСвойствАлгоритмПередВыгрузкойСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа свойств. Перед выгрузкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="044cdea8-4c83-4d46-8dbc-96b1ffec5bdc">
+    <name>ГруппаСвойствАлгоритмПриВыгрузкеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа свойств. При выгрузке</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="12a74d14-3481-46d6-bc97-a5d1f5c3dfd5">
+    <name>ГруппаСвойствАлгоритмПослеВыгрузкиСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа свойств. После выгрузки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="04dbe026-a3e1-4d5f-9ba4-f964150bb873">
+    <name>ГруппаСвойствАлгоритмПослеОбработкиВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа свойств. После обработки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="6ca99ee3-781e-40dc-a712-0515534d4db7">
+    <name>ПравилаВыгрузкиДанныхАлгоритмПередОбработкойПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки. Перед обработкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0a77e062-97ed-4883-aacb-29611e602299">
+    <name>ПравилаВыгрузкиДанныхАлгоритмПередВыгрузкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки. Перед выгрузкой объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="90f2b047-8bf0-4c1a-996a-0a3d9aa56e93">
+    <name>ПравилаВыгрузкиДанныхАлгоритмПослеВыгрузкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки. После выгрузки объекта</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d7d2f664-37cf-4a57-9187-e6a9ac9f09a5">
+    <name>ПравилаВыгрузкиДанныхАлгоритмПослеОбработкиПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила выгрузки. После обработки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="671e1301-1ff0-4522-9cf6-f469d231dcac">
+    <name>ПравилаОчисткиОбъектовАлгоритмПередОбработкойПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила очистки. Перед обработкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9d49f89b-5fc6-4e97-b951-6807c3ff03c0">
+    <name>ПравилаОчисткиОбъектовАлгоритмПередУдалениемОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила очистки. Перед удалением</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="473c497e-e5ae-4fd2-8ce1-5379efca6538">
+    <name>ПравилаОчисткиОбъектовАлгоритмПослеОбработкиПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила очистки. После обработки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="40a21f22-e1a9-40a8-ab65-f78c29d191da">
+    <name>ПравилаРегистрацииОбъектовАлгоритмПередОбработкойПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. Перед обработкой</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="a1b1e4bb-521c-484f-90ca-4f8bfc76893b">
+    <name>ПравилаРегистрацииОбъектовАлгоритмПриОбработкеПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. При обработке</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d090f620-a30d-4900-82a8-79a4b64f2327">
+    <name>ПравилаРегистрацииОбъектовАлгоритмПриОбработкеДополнительныйПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. При обработке (дополнительный)</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="857c7728-57f7-4522-9982-9ec23d8eeb5d">
+    <name>ПравилаРегистрацииОбъектовАлгоритмПослеОбработкиПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. После обработки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="88794bd5-9f11-4950-ab37-301bde949144">
+    <name>ПравилаРегистрацииОбъектовАлгоритмПолученияЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. Алгоритм получения значения</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9ae18c33-867f-4ae0-9e8d-907235500291">
+    <name>ПравилаРегистрацииОбъектовФорматПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. Формат правила регистрации объектов</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2b58725e-b47c-4c57-8f73-1e8e1c1da6a8">
+    <name>ПравилаРегистрацииОбъектовПроцедурыИФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации объектов. Процедуры и функции</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

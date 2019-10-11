@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cd14412-2cb2-458e-9b2d-06caa1b1e1a1">
+  <producedTypes>
+    <objectType typeId="8e949078-a0b8-421d-9365-ee178b11cf3b" valueTypeId="4f29f33f-2d4d-424b-9405-9ad0cb98ad44"/>
+    <managerType typeId="14ed9154-6440-439f-b0b6-f4b21f4ea313" valueTypeId="3b61b5bf-d2a3-465b-a709-1e769df6213d"/>
+  </producedTypes>
+  <name>АвтонастройкаПравилКонвертацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автонастройка правил конвертации объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтонастройкаПравилКонвертацииОбъектов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d4a5a050-d8aa-4cde-a17b-c0e187c5c92e">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="25ad51b3-c393-43b6-8ede-457ec7660323">
+    <name>ОтображатьТолькоДанныеБезПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать только данные без правил</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="24f6611d-8892-4e15-ba55-c12e0fca8184">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

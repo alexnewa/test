@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8157ca57-3eba-4942-90e0-8e206b055269">
+  <producedTypes>
+    <objectType typeId="6411949b-0ca0-488a-bcae-1563654fd77e" valueTypeId="e6da325a-cfe3-4b0d-95d4-a8262bf3982d"/>
+    <managerType typeId="2f59b89a-bfc0-45cf-8e52-9a79d4a62a9e" valueTypeId="a93f081f-cb9e-4ca3-acd1-a289c5106c4d"/>
+  </producedTypes>
+  <name>ЗагрузкаСтруктурыМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка структуры метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСтруктурыМетаданных.Form.Форма</defaultForm>
+  <attributes uuid="9eb07da0-7afa-4de8-8e5c-953101790a91">
+    <name>ИмяФайлаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2670d750-34ff-436f-8e5a-577d7c387b02">
+    <name>Состояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояния</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="87e337a1-7269-4498-9e48-843ac5b50f45">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bfcb15c-3884-41e6-8a1b-06fdaef17073">
+    <name>КонфигурацияРодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация родитель</value>
+    </synonym>
+    <comment>Группа, в которую будет помещен новый элемент справочника Конфигурации, если группа задана.</comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="777f8ed3-74fa-4781-b1f9-c99dfc4689ef">
+    <name>ВыполнятьЗагрузкуСтруктурыВОднойТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять загрузку структуры в одной транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="08a80621-70cd-4719-bf64-857cc9a0bfc4">
+    <name>ДобавлятьТолькоНовыеОбъектыСвойстваЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять только новые объекты свойства значения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="24da0251-1398-4b3c-aa5d-3e860d6b50e3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82544d84-675d-421a-bf05-1f725b462ab8">
+    <name>ФормаХодаЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма хода загрузки данных</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b63519e3-70b7-45ec-a914-651672e19a97">
+  <producedTypes>
+    <refType typeId="679acee7-8b4d-4a11-95f9-280b17e30f7e" valueTypeId="781460c4-c474-4aa8-9105-b5244909c4cd"/>
+    <listType typeId="77981533-3d62-4298-9a15-12b5fd92192c" valueTypeId="030c910e-0442-4452-b67a-b8b1c9593c59"/>
+    <managerType typeId="997dd9be-0901-4251-a917-3a430b538679" valueTypeId="aa07bca5-1b7a-4c39-a78f-16356f536c7c"/>
+  </producedTypes>
+  <name>РежимСовместимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим совместимости</value>
+  </synonym>
+  <standardAttributes>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="31b18544-d75f-4026-917c-284fc4b43a4a">
+    <name>РежимСовместимостиСБСП21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa5b2e64-7596-4ab3-9fd0-b23db51d0680">
+    <name>РежимСовместимостиСБСП20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия БСП 2.0 и ниже</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

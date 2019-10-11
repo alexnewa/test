@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa66d17d-d866-454d-ab04-08e2508c2e00">
+  <producedTypes>
+    <objectType typeId="2dc20af4-752c-46c7-98bf-85db87735452" valueTypeId="161ad161-5d6f-4526-ac20-639f78123678"/>
+    <refType typeId="02cb81f3-10ad-4f0c-92e8-c9276f68f894" valueTypeId="1fa1dac4-cf5b-4092-81a2-f752c1e06c4c"/>
+    <selectionType typeId="4c4fe3fd-9277-4765-ba85-c81c729fac62" valueTypeId="a468f9ac-2462-4188-9804-f178557d72f2"/>
+    <listType typeId="1ab7301e-5dfd-49e7-bed3-3dbf62ade541" valueTypeId="9b130144-ce8f-4cef-92a3-89aca8b529fd"/>
+    <managerType typeId="cdcbbad1-4127-4832-9fce-a1eeaa356308" valueTypeId="d971b3df-92e6-4275-8410-4c00e8dd611f"/>
+  </producedTypes>
+  <name>Алгоритмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы</value>
+  </synonym>
+  <inputByString>Catalog.Алгоритмы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конвертации</owners>
+  <codeLength>50</codeLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Алгоритмы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Алгоритмы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Алгоритмы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Алгоритмы.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Алгоритмы.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="1b8a0be9-9156-46d9-b7fb-069305a2141a">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="88f1d3bd-35db-4ad8-85f1-2375a9b52f61">
+    <name>ИспользуетсяПриЗагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется при загрузке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b02c9a5c-28e9-43b6-ae7e-827ee8e705a1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+  </attributes>
+  <attributes uuid="0de4fc2f-9d73-4a6d-9288-fb9cbbbd24c4">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="167483ca-0e6c-4700-b6a1-e84c49cc659b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="47a3ca3a-3406-44e7-bcba-1400becb6461">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9e9c63e-a715-45e1-a9aa-21f7c936fb2c">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8838453d-13e3-4d13-b6fd-3455fdd7c0d5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="18ed4059-7963-4074-94d7-b62988cfe0a6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

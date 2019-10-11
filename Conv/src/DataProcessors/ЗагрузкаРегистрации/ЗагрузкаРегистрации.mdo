@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f0a1a6b-774a-4498-90d2-439be813e855">
+  <producedTypes>
+    <objectType typeId="645fe01f-f080-42e5-98b7-877b2c7017e9" valueTypeId="c72ffb7b-85c2-41cc-8c5f-ae815b9a75dc"/>
+    <managerType typeId="e50f3dd6-0a2e-4acf-a8c0-f8c6fbc9ad9f" valueTypeId="79aca3a7-eeca-4c3f-a66c-946a15867165"/>
+  </producedTypes>
+  <name>ЗагрузкаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка правил регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаРегистрации.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8a19ebc0-9b99-4985-a830-3ae98871d38d">
+    <name>ИмяФайлаПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла правил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4bf54266-f01a-4d16-b62d-c1edf654d23d">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfd9cdb3-950a-4e70-bd49-9f16fcbebeb3">
+    <name>НаименованиеНовойКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование новой конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="806549ce-966b-44e3-96e9-1612df4c7a74">
+    <name>НаименованиеНовойРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование новой регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7019a68-4c3d-4843-8e19-8a1dca008722">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Регистрации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01ff8984-0c97-4fff-95f3-16f7023fe592">
+    <name>РежимЗагрузкиКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим загрузки конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4cf34515-48f9-447e-bd44-5ad13fa38e1d">
+    <name>РежимЗагрузкиРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим загрузки регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f5f2b225-3b79-47f5-b1c4-581fe09efd35">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

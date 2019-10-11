@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cca0741d-e850-410e-9979-52debc98d979">
+  <producedTypes>
+    <refType typeId="fc9432f0-21ab-4190-87b0-73b7249d08e7" valueTypeId="2a68f91a-548e-40c8-938c-fb685995226b"/>
+    <listType typeId="cca0741d-e850-410e-9979-52debc98d979" valueTypeId="cca0741d-e850-f10e-9979-52debc98d979"/>
+    <managerType typeId="6f51fee2-a41d-4054-b485-0595676cc818" valueTypeId="18478916-f379-4415-bcc2-8e44f320b16d"/>
+  </producedTypes>
+  <name>СпособыОтбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы отбора данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="2957a045-e940-4fa8-bdb9-d55e5844683c">
+    <name>СтандартнаяВыборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная выборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e070faf-dc47-4730-ac6e-c47d9321c2bd">
+    <name>ПроизвольныйАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

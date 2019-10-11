@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58d5f306-a621-4eb1-8c98-d04d055243ee">
+  <producedTypes>
+    <objectType typeId="57c810f3-e2b6-489d-b51f-3c05da37cef2" valueTypeId="187d74b0-35ad-415f-a463-a834c709fd71"/>
+    <managerType typeId="892622b1-f63b-4ac9-83f8-66644f7cfa2a" valueTypeId="daafcdb5-9a67-4e70-a115-785422778166"/>
+  </producedTypes>
+  <name>ЗагрузкаОбработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка обработчиков</value>
+  </synonym>
+  <comment>Загрузка измененных обработчиков</comment>
+  <defaultForm>DataProcessor.ЗагрузкаОбработчиков.Form.Форма</defaultForm>
+  <attributes uuid="329095f6-5871-4895-aaed-9c6c51ce0c86">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="80c068dc-9fc0-49ec-89f0-81308fa3bb73">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

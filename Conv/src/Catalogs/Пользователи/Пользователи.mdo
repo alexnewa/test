@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1f151c-00d0-4415-881e-5c309908e5c9">
+  <producedTypes>
+    <objectType typeId="4781b351-ae29-41b8-baeb-faebc6b30be8" valueTypeId="6841433e-99bf-4744-a3c0-94293892361a"/>
+    <refType typeId="3a7f740c-ec8e-4f7b-9f2d-4b8304d16955" valueTypeId="a500f1d9-0c91-4e7f-8660-a46e7765b01d"/>
+    <selectionType typeId="ec8dd2a2-1e31-4ff7-a107-beeddff7bd08" valueTypeId="10ae1544-f6ae-481e-bfce-8599387c944f"/>
+    <listType typeId="28758081-04a7-4a19-87f1-b1261838fdcf" valueTypeId="e31953b2-5c83-444f-a258-b10476451f8b"/>
+    <managerType typeId="695ac775-5e4c-4e29-bce7-e3771618f75e" valueTypeId="2e9bb94d-e51d-4d80-9272-6bfbb2ad18d7"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Пользователи.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Пользователи.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7995fe95-4746-4b68-a715-be31ae5f59c6">
+    <name>ВыгружатьПравилаОбменаПриОткрытииФормыНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать правила обмена при открытии формы настройки</value>
+    </synonym>
+    <comment>Выполнять выгрузку правил обмена автоматически при открытии формы настройки</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f605b276-ada2-4383-ba1e-109f4cb08506">
+    <name>НеИспользоватьМастерНастроекДляПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать мастер настроек для ПКО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="15e37bd7-3be6-4ed4-870a-d355f7675384">
+    <name>НеПроверятьНаличиеПолейПоискаВПравилахОбменаПриСохранении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять наличие полей поиска в правилах обмена при сохранении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="19d5c01f-c3e2-4de2-8a0e-cb43806d9d5b">
+    <name>ВыгружатьТолькоИспользуемыеОбработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать только используемые обработчики</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="71885b4a-80a7-488f-9cf5-df1b4c18c132">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8eeb6d7c-9200-4291-b541-b1d640312a85">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ab71943-9261-457b-ae8e-77ff254c8bda">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

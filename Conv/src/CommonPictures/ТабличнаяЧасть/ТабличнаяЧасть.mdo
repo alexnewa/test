@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76512350-479d-491e-89ea-64074f420254">
+  <name>ТабличнаяЧасть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табличная часть</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+    <y>10</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

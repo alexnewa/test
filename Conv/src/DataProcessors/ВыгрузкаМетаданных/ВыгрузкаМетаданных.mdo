@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ab6f083-084f-4a9b-8728-e1c5c629de12">
+  <producedTypes>
+    <objectType typeId="cc4221cf-8bc1-4979-a1a9-31fc34c8e921" valueTypeId="f4135f0c-dc8c-40ba-9214-b7b05226c3d7"/>
+    <managerType typeId="370149e2-8b68-4e28-874a-29a07bdb6e57" valueTypeId="edbf6897-22f2-4a2a-a3d3-035ebe111e3d"/>
+  </producedTypes>
+  <name>ВыгрузкаМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка описания структуры метаданных конфигурации 8</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВыгрузкаМетаданных.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.ВыгрузкаМетаданных.Form.УправляемаяФорма</auxiliaryForm>
+  <attributes uuid="812fb8d9-dab5-45eb-9b6a-9e2e8bf74b7f">
+    <name>ИмяФайлаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7810e925-98ab-4472-9b32-f02cc7a88548">
+    <name>Индикатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикатор</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef5edf0b-8f8f-4ed6-8528-a8bb825f896c">
+    <name>СостояниеИндикатораПрогресса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние индикатора прогресса</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c75e2e17-99a8-4395-ae81-2a50f6dde17a">
+    <name>НеВыгружатьДвиженияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать движения документов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6fb3805-2d3d-47e3-b115-7aa8e68a3d27">
+    <name>НеВыгружатьРегистрыСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать регистры сведений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b10aa863-e9d6-4c20-95f0-e35f3dbcf1b8">
+    <name>НеВыгружатьРегистрыНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать регистры накопления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd88e38e-5a17-445b-af7a-cea5db8f5528">
+    <name>НеВыгружатьРегистрыБухгалтерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать регистры бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43a5d33b-62c7-4731-915c-839c1ae7e833">
+    <name>НеВыгружатьРегистрыРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать регистры расчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfbb2185-332d-4227-91c8-eb1a45006d38">
+    <name>ВыгружатьДвиженияТолькоУДокументовСЗапретомПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать движения только у документов с запретом проведения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8e65447a-6d4d-4a12-a601-7ea2fc1ec3c7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e85f332a-17d7-4d0d-9d5b-219c710ccc0b">
+    <name>УправляемаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемая форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

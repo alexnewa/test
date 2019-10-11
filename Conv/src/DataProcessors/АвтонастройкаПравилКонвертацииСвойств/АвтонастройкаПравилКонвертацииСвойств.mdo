@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b33a57a-c19f-4bb9-8b08-e2d5154aa4bd">
+  <producedTypes>
+    <objectType typeId="3497b5ae-26b2-4de1-9ae6-c02f2ac538f3" valueTypeId="6a177593-8fd6-498d-afec-096a8de0d120"/>
+    <managerType typeId="8c602374-8898-4712-80d4-8be02fa30586" valueTypeId="1a263010-28b3-41bb-ade3-152c81ad2974"/>
+  </producedTypes>
+  <name>АвтонастройкаПравилКонвертацииСвойств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автонастройка правил конвертации свойств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтонастройкаПравилКонвертацииСвойств.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="12cfb4a9-e610-496d-92ee-381bae8bdefc">
+    <name>ПравилоКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило конвертации объектов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e4792ad2-b92e-44d6-98a1-75122d18f181">
+    <name>ТаблицаРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица результат</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="205e07aa-f2d4-4a74-8ec0-52340301a73d">
+    <name>СоздаватьПравилаКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать правила КО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="18ad663c-808d-4763-9555-c0a5ec52ff69">
+    <name>РежимАвтоматическогоСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим автоматического сопоставления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="921966f0-3ea5-4d84-86c4-b49926f8ac77">
+    <name>ОтображатьВсеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать все данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ccbeabf4-9182-4fd0-98f9-354ce2b22542">
+    <name>СоздаватьПКСТолькоДляПолейПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать ПКСТолько для полей поиска</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e72c7fe8-2096-424d-885e-aca32a313d04">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db68629-70ef-4a0b-9e81-ef931911c8fb">
+  <producedTypes>
+    <refType typeId="b55f4cb9-18e1-4aed-a7d2-0c3b05a5e5d9" valueTypeId="abb2a192-ccb3-416a-8aba-9abc48db2e16"/>
+    <listType typeId="adc38537-4dce-4125-851d-23df7893c6e4" valueTypeId="d8bb16ba-56e6-4ec5-972e-c7d87a702107"/>
+    <managerType typeId="98c73e8b-0309-4fc1-9cf4-1710d1d0184e" valueTypeId="57fdc209-fe88-4918-93c5-4de8de162325"/>
+  </producedTypes>
+  <name>ВидыСравнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сравнения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1259f659-d902-44e5-8d28-05ab787e71d4">
+    <name>Равно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7eb1449d-9e3e-4547-a29f-89ee9a44144c">
+    <name>НеРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fce224b6-bd4d-484f-a2f3-b6840d64f583">
+    <name>Больше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97f15658-52a9-4208-84e5-641e502fa1dc">
+    <name>БольшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше или равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c24bc92-62ff-460c-8235-6fe2a7ebfd17">
+    <name>Меньше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0011c873-d5b8-4d32-b784-304861f86d05">
+    <name>МеньшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше или равно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

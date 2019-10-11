@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d7a0bd-9302-4e52-b8c8-b775c77dc460">
+  <name>ОписаниеМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание объектов метаданных конфигураций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.Конфигурация</content>
+  <content>Catalog.Значения</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.Объекты</content>
+  <content>Catalog.Свойства</content>
+  <content>Enum.ВидыСвойств</content>
+  <content>Enum.Приложения</content>
+  <content>Enum.ТипыОбъектов</content>
+  <content>InformationRegister.ФайлыПользователей</content>
+</mdclass:Subsystem>

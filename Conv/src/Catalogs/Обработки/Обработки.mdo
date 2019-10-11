@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46447760-a3df-4c5a-9a23-bb9827d0e3e7">
+  <producedTypes>
+    <objectType typeId="2846cefc-2f34-469b-9282-a828aa9b535a" valueTypeId="c9f4e3e3-4e13-4aa4-bd5e-1b052fc484ce"/>
+    <refType typeId="a07e9018-2211-4ae6-8fbf-e864a09331a6" valueTypeId="1e4dbea9-7c75-4451-bcb1-ea47d8e6813b"/>
+    <selectionType typeId="d2facc95-e75c-4aad-b67d-f6af1719a01b" valueTypeId="3ed7ccff-ce20-4c64-b949-d53bccdc048d"/>
+    <listType typeId="dfcbd2da-a6eb-4d24-84fd-53d32e7ec39b" valueTypeId="5a157a00-43ca-438c-b077-9ce973fe8e03"/>
+    <managerType typeId="07cfce90-6dcc-4bb9-a65a-8ef2ed35f833" valueTypeId="d1eb12a3-68b7-4b0c-8e78-954563247004"/>
+  </producedTypes>
+  <name>Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Обработки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Обработки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конвертации</owners>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Обработки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Обработки.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="4ed794b1-b342-4d99-aad1-6fc369a5d62f">
+    <name>ХранилищеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище обработки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab3199a8-4776-4c70-ada3-f6a0bbad2968">
+    <name>ИспользуетсяПриВыгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется при выгрузке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0ddc8482-8526-4de2-8cea-3edfa7fbb2db">
+    <name>ИспользуетсяПриЗагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется при загрузке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9218fd32-a8e7-4670-be5c-56ec7a3b5561">
+    <name>ЭтоОбработкаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это обработка формы настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b0cf9a89-b51e-4196-a564-7a5d20338b1e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+  </attributes>
+  <tabularSections uuid="8a5381c3-caa5-46a1-bb11-87780caed22a">
+    <producedTypes>
+      <objectType typeId="2cc7fc43-dc6d-4978-9616-8394d806df4d" valueTypeId="47c0dc8f-e107-401f-a9df-4bc6a32529a0"/>
+      <rowType typeId="087ba756-2281-4cfe-8d60-53d7a5391010" valueTypeId="f0182453-ed59-4a95-8ad6-7f4a4e157bd9"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="1cf92b2c-1b65-49ba-939e-4ad27eed34bb">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Параметры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a3a85f4-0cf7-4106-bb6d-c7af350616b5">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="60aaa7d9-6afb-4c99-ac44-a6b7ed153983">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="299aa03e-ec06-4446-ab50-7cec1a4b3157">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

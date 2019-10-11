@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52310861-33df-4c39-beb4-80adc7dfbab8">
+  <producedTypes>
+    <objectType typeId="b7fc98ed-d207-4e73-bd06-b144d4f2c19b" valueTypeId="1419feea-1879-49fd-aa88-3c4dad364376"/>
+    <managerType typeId="4aded6e4-0ff8-455d-8adb-f1e7e6fd3d0b" valueTypeId="7b0f680e-0615-427f-9515-1915691d2232"/>
+  </producedTypes>
+  <name>ОтчетПоПравиламРегистрацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по правилам регистрации объектов</value>
+  </synonym>
+  <defaultForm>Report.ОтчетПоПравиламРегистрацииОбъектов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетПоПравиламРегистрацииОбъектов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОтчетПоПравиламРегистрацииОбъектов.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="439f125d-0e55-430b-b448-d93d59bb515f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63a8e935-ea99-4fcc-97eb-9c5bff14269a">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="83d77441-07ec-4577-a232-3864007564a7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3919287-aeac-4376-9d14-37c71b303aab">
+  <producedTypes>
+    <objectType typeId="8de65cd4-d674-423a-b4b2-b8b8329e0fa8" valueTypeId="e859e002-8158-49c5-8f5c-88e9180388d1"/>
+    <managerType typeId="6cd014cf-50dc-4a01-b01e-2bbb24811cf8" valueTypeId="0b57c486-1790-4658-9806-583dbdba0a1f"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.ОписаниеОбновлений</defaultForm>
+  <forms uuid="362e7cba-6ec4-46c1-a835-53fd4a97972a">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="18cc684b-99d3-4a83-ab99-e3daed592b8c">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

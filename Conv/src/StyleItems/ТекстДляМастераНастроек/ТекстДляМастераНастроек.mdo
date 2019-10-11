@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f176baf0-ad7d-47e2-a7c8-f678ae7af395">
+  <name>ТекстДляМастераНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст для мастера настроек</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46443f56-ef61-4de8-82e6-f7018f1964c2">
+  <producedTypes>
+    <objectType typeId="658274cb-5861-4c5a-acf9-954b4e001acd" valueTypeId="84eab64c-30ed-4279-85fb-662ced38700f"/>
+    <managerType typeId="b9b232f6-8ba2-477a-854c-b5950a319bdd" valueTypeId="17262cb9-f29c-41b3-961e-e70515191cbc"/>
+  </producedTypes>
+  <name>СинхронизацияПравил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация ПКО и ПКС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СинхронизацияПравил.Form.Форма</defaultForm>
+  <attributes uuid="8a964819-f8b0-4d70-8664-a6608079b944">
+    <name>Правила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a1e219a-8b23-415d-b45e-c4377ff4697b">
+    <name>ПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило конвертации объектов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="635ed353-7000-405e-a536-48542845888f">
+    <name>НовыйИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый объект источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Объекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16c8d0f3-eca4-449c-ad2d-5d926c455af6">
+    <name>НовыйПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый объект приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Объекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f765700-eb84-4e92-99f3-591f7759f60a">
+    <name>ОчищатьПустыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать пустые свойства</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="88e39c6d-6840-49d6-aaea-c4744e9ad971">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

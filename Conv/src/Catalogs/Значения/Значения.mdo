@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d764bd1-8313-41a1-8289-7f55a69782a1">
+  <producedTypes>
+    <objectType typeId="07881bbd-a131-4571-a21a-63b50855d22a" valueTypeId="aa3c7fac-6b28-47fb-ad23-fe04d1fb8e49"/>
+    <refType typeId="5782e260-d069-4353-8b56-5eec15dcf4c6" valueTypeId="fa23b6ff-06f1-4bb7-ba8e-779fc35fcd4f"/>
+    <selectionType typeId="111fb4ab-d7af-4e36-9ad3-a929f806c4f0" valueTypeId="cd49f069-cce6-46f4-a46a-3ee94bb3826a"/>
+    <listType typeId="a54051e3-c44b-41fb-8c5b-9b2af9dd4a1b" valueTypeId="60c28b8f-a877-4661-98f7-d9cf45af68b0"/>
+    <managerType typeId="e8651736-0167-4b30-8489-1e4c78461c9d" valueTypeId="5b855fae-a83d-4497-a0ef-d3e16caed083"/>
+  </producedTypes>
+  <name>Значения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Значения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Значения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Объекты</owners>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Значения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Значения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Значения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="232aa4cb-3aa0-4a72-bf7a-8ae9a84e5669">
+    <name>Синоним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синоним</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0b68dbac-2963-4fd8-b47c-f0c9023be4b7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+  </attributes>
+  <attributes uuid="c617774b-b1bc-4389-a573-aad2612059fc">
+    <name>Предопределенное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенное</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="e299758b-11a1-4f9e-a83e-9536aafbaf42">
+    <producedTypes>
+      <objectType typeId="09497a8e-10b0-4356-b8d1-1199e0cde5a9" valueTypeId="48c73fdf-1cce-460c-b6e4-9528210335ae"/>
+      <rowType typeId="953d52fd-3c31-448e-a2e0-19f8aaede853" valueTypeId="b36a577d-b39d-4e1f-bd22-45f88f7f19f5"/>
+    </producedTypes>
+    <name>Типы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы</value>
+    </synonym>
+    <attributes uuid="395dd1ce-f27e-493d-a1e0-72aa9c195e55">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Объекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c22ed930-4f92-48b9-b100-3df62a9aa8c9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5bf412f3-6baa-4631-a90b-8c7e37b6a041">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87aba3a1-cfc8-4254-8239-edf804e3395f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
